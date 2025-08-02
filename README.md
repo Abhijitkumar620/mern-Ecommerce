@@ -1,4 +1,5 @@
- 🛒 MERN E-commerce Website
+# **MERN E-commerce Website**
+
 
 This is a beginner-friendly full-stack E-commerce web application built using the **MERN Stack** — MongoDB, Express.js, React.js, and Node.js.
 
@@ -45,34 +46,49 @@ mern-ecommerce/
 │
 ├── README.md
 
-2️⃣ Install Backend Dependencies
+⚙️ Installation
+
+🔧 2. Backend Setup
 bash
 Copy
 Edit
 cd backend
 npm install
+Create a file named .env inside backend and add:
 
-3️⃣ Install Frontend Dependencies
+ini
+Copy
+Edit
+MONGO_URI=mongodb://127.0.0.1:27017/mernshop
+PORT=5000
+Start the backend server:
+
 bash
 Copy
 Edit
-cd ../frontend
-npm install
+npm run server
 
-▶️ Start Backend
-bash
-Copy
-Edit
-cd backend
-node server.js
+💻 3. Frontend Setup
+Open a new terminal:
 
-▶️ Start Frontend
 bash
 Copy
 Edit
 cd frontend
+npm install
 npm start
-Open your browser at: http://localhost:3000
+The app will run at:
+http://localhost:3000
+
+📌 Usage
+
+Browse products from the homepage.
+
+Register a new account.
+
+Admin can add products directly from the database (MongoDB Compass or code).
+
+Checkout/cart management can be extended further.
 
 🧑‍💻 Author
 Abhijit Kumar
